@@ -55,7 +55,7 @@ const updatePost = async() => {
         body: JSON.stringify(post)
     })
     if(response.status === 200){
-        window.location.href = '/Llavazos-Javascript-Challenge/Post/indexPs.html?id=' + ID_POST
+        window.location.href = '/Post/indexPs.html?id=' + ID_POST
     }
 }
 
