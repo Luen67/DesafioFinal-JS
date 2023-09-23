@@ -47,6 +47,7 @@ const getComments = async() => {
             renderComments(comentarios);
         }else{
             TOTAL_COMMENTS.textContent = 0;
+            comentarios = [];
         }
     } catch(error){
         console.log(error);
