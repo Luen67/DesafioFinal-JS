@@ -129,7 +129,7 @@ const renderPost = (infoPost, index) => {
 
     card_title_link.addEventListener('click',(event) => {
     
-        window.location.href = '/Llavazos-Javascript-Challenge/Post/indexPs.html?id=' + infoPost.id;
+        window.location.href = '/Post/indexPs.html?id=' + infoPost.id;
 
     });
 
@@ -190,12 +190,12 @@ const renderPost = (infoPost, index) => {
 
 searchButton.addEventListener('click', (event) =>{
     let elementToFind = searchQueriesContent.value;
-    window.location.href = '/Llavazos-Javascript-Challenge/searchQueries/?string=' + elementToFind;
+    window.location.href = '/searchQueries/?string=' + elementToFind;
 
 })
 
 create_post_button.addEventListener('click', () => {
-    window.location.href = '/Llavazos-Javascript-Challenge/CreatePost/'
+    window.location.href = '/CreatePost/'
 
 })
 
